@@ -3575,4 +3575,91 @@ Aug 09 11:11:25 --    TEXTURE: '-'          0 = 367.22MB <
 Aug 09 11:11:25 --    TEXTURE: '-'          0 = 367.22MB < 
 Aug 09 11:11:25 -- SDL_GL_GetDrawableSize(1440 x 851), SDL_GetWindowSize(1440 x 851)
 Aug 09 11:11:25 -- GetSDLWindowSize(1440 x 851)
-Aug 09 11:11:25 -- SetSize: 1440x810
+Aug 09 11:11:25 -- SetSize: 1440x810 -> 1440x810 {1440x851}
+Aug 09 11:16:38 -- [LUA] fullGC(): Took 74.1 ms for 3543 KB
+Aug 09 11:16:38 -- [LUA] 	postgame:onLoad()
+Aug 09 11:16:38 -- [LUA] NEW SITUATION{ table: 0x6cad1690
+{
+    1 = 2max,
+    2 = ftm,
+    3 = ko,
+    4 = plastech,
+    5 = sankaku,
+    6 = vault,
+    7 = ceo_office,
+    8 = security,
+    9 = executive_terminals,
+    10 = server_farm,
+    11 = nanofab,
+    12 = cyberlab,
+    13 = detention_centre,
+} } -- security, 1, Reykjavik
+Aug 09 11:16:38 -- [LUA] NEW SITUATION{ table: 0x6cad1690
+{
+    1 = 2max,
+    2 = ftm,
+    3 = ko,
+    4 = plastech,
+    5 = sankaku,
+    6 = vault,
+    7 = ceo_office,
+    8 = security,
+    9 = executive_terminals,
+    10 = server_farm,
+    11 = nanofab,
+    12 = cyberlab,
+    13 = detention_centre,
+} } -- executive_terminals, 2, Vancouver
+Aug 09 11:16:38 -- [LUA]  ### Sending level_finished...
+Aug 09 11:16:38 -- [LUA] { game_stats = { num_actions = 9, credits_gained = 50, play_t = 2786, num_turns = 0, result = lose, credits = 550 }, version = 146094, user = 31848267@steam, game_params = { missionCount = 0, progress = 12, game_number = 61, difficulty = 1, agency = { agents = table: 0x70541940 }, seed = 2633456128, campaignDifficulty = 2, situationName = executive_terminals, world = plastech }, event = level_finished, app_guid = 1c6cddef-36e3-46db-8eaf-7b82b5ddbc78, branch = branches/Update11_Aug4 }
+Aug 09 11:16:38 -- [LUA] HTTP 200: 0 bytes (nil) 
+Aug 09 11:16:42 --    TEXTURE: '-'          0 = 367.22MB < 
+Aug 09 11:16:42 --    TEXTURE: '-'          0 = 367.22MB < 
+Aug 09 11:16:42 --    TEXTURE: '-'          0 = 367.22MB < 
+Aug 09 11:16:42 --    TEXTURE: '-'          0 = 367.22MB < 
+Aug 09 11:16:43 --    TEXTURE: '+'      16384 = 367.24MB < 
+Aug 09 11:16:47 -- [LUA] 	mainmenu:onLoad() - assigning agent image 'internationale'
+Aug 09 11:16:47 -- [LUA] generationOptions:refreshGenerationOptions()
+Aug 09 11:16:47 -- [LUA] generationOptions:selectDifficulty
+Aug 09 11:16:47 -- [LUA]    selected: EXPERIENCED
+Aug 09 11:16:47 -- [LUA] generationOptions:applyDLCOptions
+Aug 09 11:16:47 -- [LUA] generationOptions:applyDLCOptions
+Aug 09 11:16:47 --    TEXTURE: '+'   18696960 = 385.07MB < 
+Aug 09 11:16:52 -- [LUA] mod_manager:resetContent()
+Aug 09 11:16:52 -- [LUA] ResetAgentDefs()
+Aug 09 11:16:52 -- [LUA] ResetAgentLoadouts()
+Aug 09 11:16:52 -- [LUA] ResetSelectableAgents()
+Aug 09 11:16:52 -- [LUA] ResetSelectablePrograms()
+Aug 09 11:16:52 -- [LUA] ResetDaemonAbilities()
+Aug 09 11:16:52 -- [LUA] ResetStoreItems()
+Aug 09 11:16:52 -- [LUA] ResetMetaDefs()
+Aug 09 11:16:52 -- [LUA] ResetUnitDefsPotential()
+Aug 09 11:16:52 -- [LUA] ResetSituations()
+Aug 09 11:16:52 -- [LUA] ResetStoryScripts()
+Aug 09 11:16:52 -- [LUA] ResetPropDefs()
+Aug 09 11:16:52 -- [LUA] 	mainmenu:onLoad() - playing title theme
+Aug 09 11:16:52 --    TEXTURE: '+'    8294400 = 392.98MB < 
+Aug 09 11:16:52 --    TEXTURE: '+'    8294400 = 400.89MB < 
+Aug 09 11:17:02 --    TEXTURE: '+'     208320 = 401.09MB < 
+Aug 09 11:17:03 --    TEXTURE: '+'     208320 = 401.29MB < 
+Aug 09 11:17:07 -- [LUA] 	mainmenu:onLoad() - assigning agent image 'tony'
+Aug 09 11:17:07 -- [LUA] generationOptions:refreshGenerationOptions()
+Aug 09 11:17:07 -- [LUA] generationOptions:selectDifficulty
+Aug 09 11:17:07 -- [LUA]    selected: EXPERIENCED
+Aug 09 11:17:07 -- [LUA] generationOptions:applyDLCOptions
+Aug 09 11:17:07 -- [LUA] generationOptions:applyDLCOptions
+Aug 09 11:17:08 -- [LUA] mod_manager:resetContent()
+Aug 09 11:17:08 -- [LUA] ResetAgentDefs()
+Aug 09 11:17:08 -- [LUA] ResetAgentLoadouts()
+Aug 09 11:17:08 -- [LUA] ResetSelectableAgents()
+Aug 09 11:17:08 -- [LUA] ResetSelectablePrograms()
+Aug 09 11:17:08 -- [LUA] ResetDaemonAbilities()
+Aug 09 11:17:08 -- [LUA] ResetStoreItems()
+Aug 09 11:17:08 -- [LUA] ResetMetaDefs()
+Aug 09 11:17:08 -- [LUA] ResetUnitDefsPotential()
+Aug 09 11:17:08 -- [LUA] ResetSituations()
+Aug 09 11:17:08 -- [LUA] ResetStoryScripts()
+Aug 09 11:17:08 -- [LUA] ResetPropDefs()
+Aug 09 11:17:10 -- [LUA] teamPreview:onLoad()
+Aug 09 11:17:13 --    TEXTURE: '+'      10000 = 401.30MB < 
+Aug 09 11:17:13 --    TEXTURE: '+'      100
